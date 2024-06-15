@@ -6,12 +6,13 @@ function playsonidopom() {
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
+let contador = 0
 
+while (contador <  9){
 
-while (0 <  9){
-
-    listaDeTeclas[0].onclick = playsonidopom;
-
+    listaDeTeclas[contador].onclick = playsonidopom;
+    contador = contador + 1
+    console.log('Vuelta ' + contador)
 }
 
 
