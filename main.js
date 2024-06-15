@@ -4,7 +4,7 @@ function playsonidopom() {
 
 }
 
-document.querySelectorAll('.tecla')
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
 
 
