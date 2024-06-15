@@ -8,4 +8,12 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 
 
+while (0 <  9){
+
+    listaDeTeclas[0].onclick = playsonidopom;
+
+}
+
+
+
 
