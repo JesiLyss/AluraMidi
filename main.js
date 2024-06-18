@@ -9,7 +9,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 let contador = 0
 
 while (contador <  9){
-    const tecla = listaDeTeclas[´contador];
+    const tecla = listaDeTeclas[contador];
     const instrumento = tecla.classList[1];
     console.log(instrumento)
 
