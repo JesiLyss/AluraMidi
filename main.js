@@ -4,7 +4,16 @@ function playSonido (idElementoAudio){
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-let contador = 0
+
+
+
+for(let contador = 0){
+
+
+}
+
+
+
 
 while (contador < 9){
    const tecla = listaDeTeclas[contador];
