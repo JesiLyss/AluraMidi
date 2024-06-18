@@ -1,6 +1,6 @@
-function playsonidopom() {
+function playsonidopom(idElementoAudio) {
 
-    document.querySelector('#sonido_tecla_pom').play();
+    document.querySelector(idElementoAudio).play();
 
 }
 
@@ -10,7 +10,7 @@ let contador = 0
 
 while (contador <  9){
 
-    listaDeTeclas[contador].onclick = playsonidopom;
+    listaDeTeclas[contador].onclick = playsonido();
     contador = contador + 1
     console.log('Vuelta ' + contador)
 }
