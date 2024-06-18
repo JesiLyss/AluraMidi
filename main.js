@@ -7,10 +7,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 
 
-for(let contador = 0){
-
-
-}
+for(let contador = 0){}
 
 
 
