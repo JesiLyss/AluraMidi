@@ -7,7 +7,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 
 
-for(let contador = 0){}
+for(let contador = 0; contador < 9; contador = contador + 1;){}
 
 
 
@@ -22,7 +22,7 @@ while (contador < 9){
    tecla.onclick = function (){
     playSonido(idAudio);
    }; 
-   contador = contador + 1;
+   
    
 }
 
